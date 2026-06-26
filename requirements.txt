@@ -1,0 +1,9 @@
+# Core dependencies (pinned to the versions used to produce the reported results).
+# Python 3.13, macOS arm64 / CPU. See README for hardware details.
+torch==2.12.1
+numpy==2.5.0
+matplotlib==3.11.0
+
+# Development / testing
+pytest==9.1.1
+ruff==0.15.20

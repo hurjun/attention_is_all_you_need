@@ -1,0 +1,8 @@
+# Optional dependencies for the real EN->DE Multi30k translation path
+# (scripts/train_translation.py). Installed separately because the synthetic
+# demo and the test suite do not need them.
+#
+#   pip install -r requirements.txt -r requirements-translation.txt
+#
+datasets>=2.18
+sacrebleu>=2.4

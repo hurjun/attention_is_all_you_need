@@ -1,0 +1,40 @@
+# Project-specific
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Downloaded datasets (translation path). The in-repo synthetic task generator
+# lives in tasks/, which is NOT ignored.
+data/
+*.tsv
+*.gz
+
+# OS
+.DS_Store
+
+# Misc
+*.log
